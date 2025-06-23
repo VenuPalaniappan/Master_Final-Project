@@ -25,7 +25,7 @@ const handleLogin = () =>{
     <div className ="right">
       <h1>Login</h1>
       <form>
-        <input type="text" placeholder="Username" />
+        <input type="text" placeholder="Username1" />
         <input type="password" placeholder="Password"/>
         <button>JUSTCLICKLA</button>
       </form>
