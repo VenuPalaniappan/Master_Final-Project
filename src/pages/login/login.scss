@@ -1,0 +1,79 @@
+.login {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .card {
+        width: 70%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        
+        .left{
+            flex: 1;
+            min-height: 500px;
+            background:url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600") center ;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1{
+                font-size: 30px;
+                line-height: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: purple;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+    .right{
+        flex: 1;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+       
+        h1{
+            color: purple;
+            font-weight: bold;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        input{
+            border: none;
+            border-bottom: 1px solid lightgray;
+            padding: 20px 10px;
+        }
+        button{
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background-color: purple;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    }
+}
